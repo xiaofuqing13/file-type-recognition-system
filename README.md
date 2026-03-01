@@ -1,5 +1,8 @@
 # 文件类型识别系统
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?style=flat-square&logo=github)
+
+
 日常工作中经常会遇到文件后缀名被篡改或丢失的情况——比如下载的文件没有后缀、邮件附件被改名、恶意文件伪装成图片等。这时候光看文件名根本判断不了真实类型。本项目基于随机森林（Random Forest）机器学习算法，通过分析文件的二进制特征来识别文件真实类型，支持 50 种常见文件格式的识别，前端上传文件后自动返回预测结果。
 
 ## 痛点与目的
