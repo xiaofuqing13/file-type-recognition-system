@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pkl
+*.joblib
+venv/
+env/
+
+# Data
+RandomForestModel/data/
+RandomForestModel/temp/
+
+# Java
+demo/target/
+demo/.idea/
+*.class
+
+# Vue
+file-type-front/node_modules/
+file-type-front/.git/
+file-type-front/dist/
+
+# IDE
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
+._*
+
+# Docs (personal)
+1.docx
+*.zip
+副本*.docx
